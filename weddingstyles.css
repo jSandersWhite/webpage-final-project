@@ -1,0 +1,230 @@
+/* Style sheet for White Wedding Website */
+
+/* Stlye for page background determines gradient */
+body {
+	background: -moz-linear-gradient(white, #000080); /* Firefox */
+	background: -o-linear-gradient(white, #000080); /* Opera */
+	background: -webkit-linear-gradient(white, #000080); /* Chrome and Safari */
+	background: -linear-gradient(white, #000080);
+}
+
+/* Style for header floats */
+header {
+	float: left;
+}
+
+/* Style for header image */
+#header {
+	max-width: 100%;
+	border-radius: 2em;
+}
+
+/* Style for container to center page */
+#container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for nav */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	display: inline;
+	margin-left: -7em;
+	margin-bottom: 5em;
+	text-align: center;
+}
+
+/* Style for nav ul to specify margin and padding */
+nav ul {
+	padding: 0;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/* Style for nav li removes bullets, sets background color, and creates borders */
+nav li{
+	opacity: 80%;
+	list-style-type: none;
+	margin: 2em;
+	display: inline;
+	background-color: transparent;
+	white-space: nowrap;
+	overflow: auto;
+}
+
+
+/* Style for nav li a formats link color and removes underline */
+nav li a {
+	color: #000080;
+	text-decoration: none;
+	text-shadow: 0.1em 0.1em #E6E6E6; 
+}
+
+/* Styles for pseudoclasses */
+nav li a:hover {
+	font-style: italic;
+}
+
+/* Style for banner image */
+#banner {
+	max-width: 100%;
+}
+
+/* Style for main element */
+main {
+	font-size: 1em;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top: 2.5em;
+}
+
+/* Style for section element to determine size and central placement */
+section {
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for section anchor elements */
+section a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Style for figure center aligns */
+figure {
+	text-align: center;
+
+}
+
+/* Style for figure specifies image size and display */
+figure img {
+	display: inline;
+	background-color: #000080;
+	padding: 0.5em;
+	margin: 0.5em;
+	max-width: 100%;
+	border-radius: 1em;
+}
+
+/* Style for figcaption center aligns */
+figure figcaption {
+	text-align: center;
+}
+
+/* Style for the article section */
+article {
+	text-align: center;
+	color: white;
+	float: left;
+	padding: 0.5em;
+	max-width: 40%;
+	margin: 3em;
+}
+
+/* Style for article figures */
+article figure {
+	display: block;
+}
+
+/* Style for article figure caption specifies text color and decoration */
+article figcaption {
+	color: white;
+	size: 1.25em;
+	padding: 0.5em;
+}
+
+/* Style for article figure img */
+article figure img {
+	max-height: 200px;
+	max-width: 200px;
+	background-color: none;
+	padding: 0;
+	opacity: 0.75;
+}
+
+/* Pseudoclass for article img removes opacity */
+article img:hover {
+	opacity: 1;
+}
+
+/* Style for article h3 heaer */
+article h3 {
+	color: #000080;
+}
+
+/* Style for article list */
+article ul {
+	text-align: left;
+}
+
+/* Style for H2 header */
+h2 {
+	color: #000080;
+}
+
+/* Style for table caption styles text */
+table caption {
+	color: #000080;
+	font-size: 1.25em;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+/* Style for the table header styles background and text */
+th {
+	background-color: #F5F5F0;
+	text-decoration: bold;
+}
+
+/* Style for table border */
+table, th, td {
+	border: 0.2em solid #000000;
+}
+
+/* Style adds padding to table header and data */
+th, td {
+	padding: .75em;
+}
+
+/* Styles for table element collapses border and styles background color */
+table {
+	border-collapse: collapse;
+	background-color: white;
+	color: navy;
+}
+
+/* Style for table anchor element removes underline */
+table a {
+	text-decoration: none;
+}
+
+
+/* Style for input, select, and textarea form elements */
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+/* Style for form labels */
+label {
+	display: block;
+	color: white;
+}
+
+/* Style for the footer section */
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	margin-top: 2em;
+	color: #FFFFFF;
+	clear: both;
+	overflow: auto;
+}
+
+/* Style for anchor element within footer */
+footer a {
+	color: #e6f2ff;
+	text-shadow: 0.1em 0.1em #1D1D1C; 
+}
